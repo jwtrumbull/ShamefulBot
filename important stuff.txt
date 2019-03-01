@@ -1,0 +1,5 @@
+Client ID: 455586839089381386
+
+Client Secret: gGSIaj3AuxxPiQuzLmDPbcYwbiwlzuq4
+
+https://discordapp.com/api/oauth2/authorize?client_id=455586839089381386&permissions=0&scope=bot
