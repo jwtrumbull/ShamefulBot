@@ -75,7 +75,7 @@ async def smile(ctx):
 
 @bot.group(pass_context=True)
 async def ping(ctx):
-    """Pings the chat and the terminal""
+    """Pings the chat and the terminal"""
     await bot.say(":ping_pong: Pong!!!")
     
 @bot.command(pass_context=True)
