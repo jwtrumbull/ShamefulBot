@@ -76,8 +76,9 @@ async def smile(ctx):
 @bot.command(pass_context=True)
 async def ping(ctx):
     """Pings the chat and the terminal"""
-    print ("user has pinged")
 	await bot.say(":ping_pong: Pong!!!")
+    print ("user has pinged")
+	
 
 @bot.command(pass_context=True)
 async def info(ctx, user: discord.Member):
