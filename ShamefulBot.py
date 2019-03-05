@@ -338,6 +338,6 @@ async def tets(ctx):
 
 
 
-bot.run(BOT_TOKEN)
+bot.run(os.getenv('BOT_TOKEN'))
 
 input('Press ENTER to exit')
