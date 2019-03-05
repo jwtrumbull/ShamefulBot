@@ -73,11 +73,13 @@ async def smile(ctx):
     """Smiles"""
     await bot.say(":smile:")
 
-@bot.group(pass_context=True)
+@bot.command(pass_context=True)
 async def ping(ctx):
-    """Pings the chat and the terminal""
-    await bot.say(":ping_pong: Pong!!!")
-    
+    """Pings the chat and the terminal"""
+	await bot.say(":ping_pong: Pong!!!")
+    print ("user has pinged")
+	
+
 @bot.command(pass_context=True)
 async def info(ctx, user: discord.Member):
     """Shows a users name, id, status, role, date joined, and waifu"""
@@ -314,8 +316,8 @@ async def randomWaifu(ctx):
 def random_line(afile):
     line = next(afile)
     for num, aline in enumerate(afile):
-       if random.randrange(num + 2): continue
-       line = aline
+      if random.randrange(num + 2): continue
+      line = aline
     return line
 
 '''Reads the entire file'''
