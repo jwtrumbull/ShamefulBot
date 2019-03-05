@@ -141,7 +141,7 @@ async def clear(ctx, amount=100):
 async def poke(ctx, member: discord.Member):
     """Pokes the user"""
     await bot.say("Alrighty!")
-    await bot.send_message(member, ":point_right: boop")
+    await bot.send_message(member, ":point_right: boooooop")
 
 
 """
