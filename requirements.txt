@@ -1,0 +1,4 @@
+asyncio==3.4.3
+discord==0.0.2
+discord.py==0.16.12
+youtube-dl==2019.2.18
