@@ -338,6 +338,5 @@ async def tets(ctx):
 
 
 
-bot.run("NDU1NTg2ODM5MDg5MzgxMzg2.DgBeYQ.SSnBvmDwvKIRhftXXgtix48iN2Y")
 
 input('Press ENTER to exit')
