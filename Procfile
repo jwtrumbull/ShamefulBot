@@ -1,1 +1,1 @@
-worker: node ShamefulBot.py
+worker: python ShamefulBot.py
