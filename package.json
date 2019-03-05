@@ -7,7 +7,8 @@
     "start": "node ShamefulBot.py"
   },
   "dependencies": {
-    "discord.js": "11.1.0",
-    "request": "2.81.0"
+    "-m pip install -U discord.py",
+    "-m pip install -U discord.py[voice]",
+    "-m pip install -U youtube_dl"
   }
 }
